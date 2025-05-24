@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      scroll-behavior: smooth;
+
+}
+.centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 30px;
+    background-color: white;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    
+}
+.nav a:hover{
+    color: rgb(32, 186, 168);
+    opacity: 1;
+}
+
+
+.foot{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+    margin: 0rem 4rem;
+}
+.navs{
+    display: flex;
+    gap: 3rem;
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.navs a:hover{
+    color: rgb(32, 186, 168);
+}
+
+.maindiv{
+    
+    display: flex;
+    padding: 4rem rem;
+}
+
+.text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.pimag{
+    
+}
+.pimag img{
+    width: 90%;
+   
+}
+.headtext{
+   
+    padding-left: 5rem;
+}
+.destext{
+   
+    padding-left: 5rem;
+}
+.headtext p{
+        font-size: 45px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.destext p{
+        font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+.follow{
+    
+     padding-right: 8rem;
+     margin-top: 2%;
+}
+.follows{
+    
+    display: flex;
+    flex-direction: column;
+   align-items: end;
+   gap: 0.5rem;
+   opacity: 0.7;
+  
+}
+.socials{
+    
+    display: flex;
+    gap: 4%;
+    padding-left: 1rem;
+    width: 20%;
+}
+.simg img{
+    width: 25px;
+}
+.ss{
+    font-size: 14px;
+    font-weight: 600;
+}
+.mail{
+    display: flex;
+   padding: 3rem 4.7rem;
+    justify-content: flex-end;
+    gap: 1%;
+    opacity: 0.7;
+}
+.mail:hover{
+    opacity: 1;
+}
