@@ -266,9 +266,18 @@
 .foot{
   
     display: flex;
-    justify-content: space-between;
-    padding: 3rem 0rem;
-    margin: 0rem 4rem;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+    justify-content: center;
+}
+.rights{
+  font-size: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 .navs{
     display: flex;
@@ -287,7 +296,6 @@
 .rights{
     font-size: 12px;
     
-    color: rgb(190, 29, 29)
 }
 .datec{
     font-size: 12px; 
@@ -644,6 +652,70 @@
     font-size: 0.6rem;
     opacity: 0.7;
     
+}.navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 20px;
+    background-color: white;
+    font-size: 1px;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.6rem;
+    opacity: 0.7;
+    
+}.navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 20px;
+    background-color: white;
+    font-size: 1px;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.6rem;
+    opacity: 0.7;
+    
 }
 
 .mainclass{
@@ -834,6 +906,7 @@
     opacity: 0.9;
 }
 .complogo img{
+    
     width: 25px;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
@@ -850,6 +923,7 @@
     column-gap: 1px;
     margin-bottom: 0.7rem;
     opacity: 0.8;
+    align-items: center;
 
 }
 .role{
@@ -861,6 +935,11 @@
 }
 .workk{
     font-size: 10px;
+}
+.work{
+    
+    display: flex;
+    align-items: center;
 }
 
 .foot{

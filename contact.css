@@ -482,8 +482,6 @@ textarea::placeholder{
 }
 .navcontainer{
   
-
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -494,15 +492,16 @@ textarea::placeholder{
 }
 .nav{
     display: flex;
-  
+   
     justify-content: center;
     align-items: center;
-    gap: 9%;
+    gap: 0.9rem;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     border-radius: 60px;
-    padding: 0px 50px;
+    padding: 0px 20px;
     background-color: white;
+    font-size: 1px;
    
     
 }
@@ -510,7 +509,7 @@ textarea::placeholder{
     text-decoration: none;
     color: rgb(56, 56, 59);
     font-weight: 500;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     opacity: 0.7;
     
 }
