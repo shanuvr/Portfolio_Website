@@ -151,3 +151,766 @@
 .mail:hover{
     opacity: 1;
 }
+
+@media (min-width: 1px) and (max-width: 320px){
+  
+
+.centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 20%;
+    justify-self: center;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 3px;
+    background-color: white;
+    
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.6rem;
+    opacity: 0.7;
+    
+}
+
+
+.navs{
+    display: flex;
+    gap: 5px;
+  
+    width: auto;
+   
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.6rem;
+}
+.rights{
+  font-size: 12px;
+}
+
+
+.maindiv{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.pimag{
+  order: 1;
+  
+}
+.pimag img{
+    width: 70%;
+   
+}
+.headtext{
+   
+    padding-left: 1rem;
+}
+.destext{
+   
+    padding-left: 1rem;
+}
+.headtext p{
+        font-size: 25px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.destext p{
+        font-size: 13px;
+    line-height: 20px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+.follow{
+  
+     margin-top: 12%;
+       padding: 0;
+}
+.follows{
+ 
+    
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   gap: 0.5rem;
+   opacity: 0.7;
+   width: 100%;
+   padding: 0;
+  
+}
+.socials{
+  
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    justify-content: start;
+    
+
+}
+.simg img{
+    width: 18px;
+}
+.simg{
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+.ss{
+    font-size: 12px;
+    font-weight: 600;
+}
+.ss{
+  font-size: 10px;
+ 
+}
+.ss{
+  display: flex;
+  align-items: center;
+}
+.mail{
+    display: flex;
+  
+    gap: 1%;
+    opacity: 0.7;
+    padding: 0;
+    justify-content: center;
+   
+    padding: 10px 1px;
+}
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+    align-items: center;
+}
+.rights{
+  font-size: 10px;
+  padding-top: 10px;
+}
+}
+
+
+
+
+@media (min-width: 321px) and (max-width: 430px){
+  .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-self: center;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 30px;
+    background-color: white;
+    
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    
+}
+
+
+.navs{
+    display: flex;
+    gap: 15px;
+ 
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+
+
+.maindiv{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.text{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+.pimag{
+  order: 1;
+  
+}
+.pimag img{
+    width: 80%;
+   
+}
+.headtext{
+   
+    padding-left: 1rem;
+}
+.destext{
+   
+    padding-left: 1rem;
+}
+.headtext p{
+        font-size: 27px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.destext p{
+        font-size: 14px;
+    line-height: 25px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+.follow{
+  
+     margin-top: 12%;
+       padding: 0;
+}
+.follows{
+  
+    
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   gap: 0.5rem;
+   opacity: 0.7;
+   width: 100%;
+   padding: 0;
+  
+}
+.socials{
+  
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    justify-content: start;
+     padding-left: 4%;
+    
+
+}
+.simg img{
+    width: 23px;
+}
+.simg{
+  display: flex;
+  align-items: center;
+}
+.ss{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ss{
+  display: flex;
+  align-items: center;
+}
+.mail{
+    display: flex;
+
+    gap: 1%;
+    opacity: 0.7;
+    padding: 0;
+    justify-content: center;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.mail img{
+  width: 18px;
+}
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+    justify-content: center;
+}
+.rights{
+  font-size: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+}
+@media (min-width: 431px) and (max-width: 768px){
+
+  .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-self: center;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 40px;
+    background-color: white;
+    
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.7rem;
+    opacity: 0.8;
+    
+}
+
+
+.navs{
+    display: flex;
+    
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 10px;
+    margin-top: 2%;
+   
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+
+.maindiv{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.text{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.pimag{
+  order: 1;
+  
+}
+.pimag img{
+    width: 50%;
+   
+   
+}
+.headtext{
+   
+    padding-left: 1rem;
+}
+.destext{
+   
+    padding-left: 1rem;
+}
+.headtext p{
+        font-size: 27px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.destext p{
+        font-size: 14px;
+    line-height: 25px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+.follow{
+  
+     margin-top: 12%;
+       padding: 0;
+}
+.follows{
+ 
+    
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   gap: 0.5rem;
+   opacity: 0.7;
+   width: 100%;
+   padding: 0;
+  
+}
+.socials{
+ 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    justify-content: start;
+    padding-left: 2%;
+    
+
+}
+.simg img{
+    width: 23px;
+}
+.simg{
+  display: flex;
+  align-items: center;
+}
+.ss{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ss{
+  display: flex;
+  align-items: center;
+}
+.mail{
+    display: flex;
+  
+    gap: 1%;
+    opacity: 0.7;
+    padding: 0;
+    justify-content: center;
+    margin-top: 2%;
+}
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: 2px solid rgb(140, 21, 21);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.rights{
+  font-size: 15px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+
+@media (min-width: 500px) and (max-width: 768px){
+  .navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.6rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-self: center;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 40px;
+    background-color: white;
+   
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    
+    
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-self: center;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 30px;
+    background-color: white;
+    
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    
+}
+
+
+.navs{
+    display: flex;
+   
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 10px;
+    margin-top: 2%;
+   
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+
+.maindiv{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.text{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.pimag{
+  order: 1;
+  
+}
+.pimag img{
+    width: 50%;
+   
+   
+}
+.headtext{
+   
+    padding-left: 1rem;
+}
+.destext{
+   
+    padding-left: 1rem;
+}
+.headtext p{
+        font-size: 37px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.destext p{
+        font-size: 16px;
+    line-height: 25px;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+.follow{
+  
+     margin-top: 12%;
+       padding: 0;
+}
+.follows{
+
+    
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   gap: 0.5rem;
+   opacity: 0.7;
+   width: 100%;
+   padding: 0;
+  
+}
+.socials{
+  
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    justify-content: start;
+    padding-left: 2%;
+    
+
+}
+.simg img{
+    width: 27px;
+}
+.simg{
+  display: flex;
+  align-items: center;
+}
+.ss{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ss{
+  display: flex;
+  align-items: center;
+}
+.mail{
+    display: flex;
+
+    gap: 1%;
+    opacity: 0.7;
+    padding: 0;
+    justify-content: center;
+    margin-top: 2%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+   
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.rights{
+  font-size: 15px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+}

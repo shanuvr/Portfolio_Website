@@ -155,3 +155,458 @@
     margin-top: 20px;
     
 }
+.mainh{
+    font-size: 32px; opacity: 0.8
+}
+.mainp{
+    padding: 2rem 5rem; opacity: 0.8
+}
+.line{
+    border: 1px solid rgb(191, 184, 184);
+    margin-top: 2%;
+    
+}
+@media (min-width: 1px) and (max-width: 320px){
+
+    .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 6px;
+    background-color: white;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.5rem;
+    opacity: 0.7;
+    
+}
+.mainh{
+   
+    font-size: 20px; 
+    padding: 10px;
+}
+.mainp{
+   font-size: 10px;
+    padding: 10px;
+    opacity: 0.8;
+}
+  
+
+
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navs{
+    display: flex;
+    gap: 10px;
+   
+    margin-bottom: 2%;
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 10px;
+    opacity: 0.7;
+}
+.rights{
+    font-size: 10px;
+}
+
+
+.mainclass{
+    
+   justify-content: flex-start;
+  padding-top: 1rem;
+
+}
+
+.container{
+   
+    width: 90%;
+    
+    height: 10px;
+   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+   border-bottom-right-radius: 70px;
+   border-top-right-radius: 70px;
+    
+
+}
+
+.pp{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+
+
+}
+@media (min-width: 321px) and (max-width: 430px){
+
+      .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 11%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 40px;
+    background-color: white;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.6rem;
+    opacity: 0.7;
+    
+}
+.mainh{
+   
+    font-size: 23px; 
+    padding: 10px;
+}
+.mainp{
+   font-size: 13px;
+    padding: 10px;
+    opacity: 0.8;
+}
+  
+
+
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navs{
+    display: flex;
+    gap: 10px;
+ 
+    margin-bottom: 2%;
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 11px;
+    opacity: 0.7;
+}
+.rights{
+    font-size: 10px;
+}
+
+
+.mainclass{
+    
+   justify-content: flex-start;
+  padding-top: 1rem;
+
+}
+
+.container{
+   
+    width: 90%;
+   
+    height: 13px;
+   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+   border-bottom-right-radius: 70px;
+   border-top-right-radius: 70px;
+    
+
+}
+
+.pp{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+
+}
+@media (min-width: 431px) and (max-width: 768px){
+       .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 80px;
+    background-color: white;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    
+}
+.mainh{
+   
+    font-size: 36px; 
+    padding: 10px;
+}
+.mainp{
+   font-size: 15px;
+    padding: 10px;
+    opacity: 0.8;
+}
+  
+
+
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navs{
+    display: flex;
+    gap: 25px;
+    
+    margin-bottom: 2%;
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.rights{
+    font-size: 11px;
+}
+
+
+.mainclass{
+    
+   justify-content: flex-start;
+  padding-top: 1rem;
+
+}
+
+.container{
+   
+    width: 90%;
+   
+    height: 15px;
+   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+   border-bottom-right-radius: 70px;
+   border-top-right-radius: 70px;
+    
+
+}
+
+.pp{
+    margin-bottom: 8px;
+    margin-top: 13px;
+    font-size: 13px;
+    
+}
+
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .centerdiv{
+    margin: 0% 8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;    
+  
+}
+.navcontainer{
+  
+
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+     position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 60px;
+    padding: 0px 120px;
+    background-color: white;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    
+}
+.mainh{
+   
+    font-size: 39px; 
+    padding: 20px;
+}
+.mainp{
+   font-size: 16px;
+    padding: 20px;
+    opacity: 0.8;
+}
+  
+
+
+.foot{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navs{
+    display: flex;
+    gap: 55px;
+
+    margin-bottom: 2%;
+}
+.navs a{
+    
+    text-decoration: none;
+    color: rgb(56, 56, 59);
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.7;
+}
+.rights{
+    font-size: 12px;
+}
+
+
+.mainclass{
+    
+   justify-content: flex-start;
+  padding-top: 1rem;
+
+}
+
+.container{
+   
+    width: 90%;
+   
+    height: 20px;
+   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+   border-bottom-right-radius: 70px;
+   border-top-right-radius: 70px;
+    
+
+}
+
+.pp{
+    margin-bottom: 10px;
+    margin-top: 13px;
+    font-size: 15px;
+    
+}
+
+
+}
