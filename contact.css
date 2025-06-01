@@ -966,7 +966,7 @@ textarea::placeholder{
 }
 .nav{
     display: flex;
-   border: 2px solid red;
+   
     justify-content: center;
     align-items: center;
     gap: 27%;
@@ -1021,27 +1021,27 @@ textarea::placeholder{
 .mainc{
     padding: 0rem 1rem;
     opacity: 0.8;
-    border: 2px solid violet;
+
 }
 .head{
     font-size: 32px;
     font-weight: 700;
-    border: 2px solid blueviolet;
+   
 }
 .des{
     font-size: 14px;
     line-height: 1px; 
 }
 .htext{
-    border: 2px solid rgb(65, 12, 111);
+   
     padding-top: 1rem;
 }
 .dtetx{
     padding-top: 1rem;
-    border: 2px solid rgb(198, 22, 22);
+    
 }
 .follow{
-    border: 2px solid rgb(152, 9, 111);
+  
      padding: 0;
    
      width: 100%;
@@ -1053,7 +1053,7 @@ textarea::placeholder{
      
 }
 .follows{
-    border: 2px solid rgb(22, 157, 43);
+    
     display: flex;
     flex-direction: column;
    align-items: start;
@@ -1066,7 +1066,7 @@ textarea::placeholder{
   
 }
 .socials{
-    border: 2px solid rgb(190, 118, 18);
+    
     display: flex;
     gap: 4%;
     width: 100%;
@@ -1081,7 +1081,7 @@ textarea::placeholder{
     cursor: pointer;
     font-size: 9px;
     font-weight: 600;
-    border: 2px solid rgb(193, 19, 19);
+   
 }
 .sfolo{
     width: 100%;
@@ -1094,7 +1094,7 @@ textarea::placeholder{
     opacity: 0.7;
     cursor: pointer;
     width: 100%;
-    border: 2px solid rgb(145, 33, 33);
+    
     padding: 1rem;
 }
 
@@ -1104,7 +1104,7 @@ textarea::placeholder{
 }
 
 .forms{
-   border: 2px solid yellow;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1181,7 +1181,7 @@ textarea::placeholder{
 @media (min-width: 1025px){
     
     .socials{
-        border: 2px  solid black;
+        
         width: 100%;
     }
 }
